@@ -2,7 +2,7 @@ body {
     margin: auto;
     text-align: center;
     justify-content: center;
-    
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
 
 .gameboard {
@@ -11,7 +11,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    border: 2px black solid;
+    border: 3px #944806 solid;
     border-radius: 2%;
     width: 306px;
 }
@@ -20,6 +20,27 @@ body {
     display: flex;
     height: 100px;
     width: 100px;
-    border: 1px red solid;
+    border: 1px #eae2b7 solid;
     border-radius: 5%;
+    font-size: 90px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;  
+    justify-content: center;
+    align-items: center;
+    color: #283618;
+}
+
+#gameRestartButton {
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 2%;
+    border: outset 2px #944806;
+    background-color: #dda15e;
+    color: #944806;
+}
+
+h1, h2 {
+    color: black
 }
