@@ -2,12 +2,12 @@
 const statusDisplay = document.querySelector('#gameStatus');
 
 let gameActive = true;
-let currentPlayer = "X";
+let currentPlayer = "X"
 let gameState = ["", "", "", "", "", "", "", "", ""];
 
-const winningMessage = () => `Player ${currentPlayer} has won!`;
-const drawMessage = () => `Game ended in a draw!`;
-const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
+const winningMessage = () => `Gamer ${currentPlayer} has won!`;
+const drawMessage = () => `Game ended with draw!`;
+const currentPlayerTurn = () => `Now is ${currentPlayer}'s turn`;
 
 statusDisplay.innerHTML = currentPlayerTurn();
 function handleCellPlayed(clickedCell, clickedCellIndex) {
